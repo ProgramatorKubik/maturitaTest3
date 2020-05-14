@@ -31,7 +31,7 @@ class PrihlaseniPresenter extends \Nette\Application\UI\Presenter {
             $mailer = new \Nette\Mail\SmtpMailer([ 
                 'smtp' => true,'host' => 'smtp.email.cz',
                 'username' => 'kuba.samec10@seznam.cz',
-                'password' => 'Ku.1342000',
+                'password' => '',
                 'secure' => 'SSL']);
                 $mailer->send($mail);
                } 
